@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef5e9;
+}
+
+/* Header */
+.header {
+    background-color: #2c5f2d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Horizontal Navbar */
+.topnav {
+    background-color: #4a7c59;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.topnav a:hover {
+    background-color: #3b5f42;
+}
+
+/* Search Bar */
+.search-container input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Main Layout */
+.container {
+    display: flex;
+}
+
+/* Vertical Navbar */
+.sidenav {
+    width: 200px;
+    background-color: #2c5f2d;
+    padding-top: 20px;
+    position: fixed;
+    height: 100vh;
+}
+
+.sidenav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidenav a:hover {
+    background-color: #4a7c59;
+}
+
+/* Content Section */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c5f2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hidden Sections */
+.hidden {
+    display: none;
+}
+
+/* Login Page */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
