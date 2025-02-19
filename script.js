@@ -19,9 +19,7 @@ function showContent(section) {
                     link.style.display = "";
                 } else {
                     link.style.display = "none";
-                }
-            });
-        }
+             
 // Search Bar Functionality
 function searchFunction() {
     let input = document.getElementById("searchBar").value.toLowerCase();
@@ -35,3 +33,6 @@ function searchFunction() {
         }
     });
 }
+       }
+            });
+        }
