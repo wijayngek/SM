@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Welcome to Our School</h1>
+    </header>
+
+    <!-- Horizontal Navigation Bar -->
+    <nav class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search..." onkeyup="searchFunction()">
+        </div>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Vertical Navigation Bar -->
+        <aside class="sidenav">
+            <a href="#" onclick="showContent('home')">🏫 Home</a>
+            <a href="#" onclick="showContent('admissions')">📝 Admissions</a>
+            <a href="#" onclick="showContent('courses')">📚 Courses</a>
+            <a href="#" onclick="showContent('events')">🎉 Events</a>
+            <a href="#" onclick="showContent('contact')">📞 Contact</a>
+        </aside>
+
+        <!-- Content Section -->
+        <main class="content">
+            <div id="home">
+                <h2>Welcome to Our School</h2>
+                <p>Click on the navigation links to get more information.</p>
+            </div>
+            <div id="admissions" class="hidden">
+                <h2>Admissions</h2>
+                <p>Here you will find information about how to apply.</p>
+            </div>
+            <div id="courses" class="hidden">
+                <h2>Courses</h2>
+                <p>We offer various academic courses. Click to explore.</p>
+            </div>
+            <div id="events" class="hidden">
+                <h2>Events</h2>
+                <p>Check out upcoming school events here.</p>
+            </div>
+            <div id="contact" class="hidden">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our administration.</p>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Our School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
