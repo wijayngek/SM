@@ -18,7 +18,7 @@
     <script>
         function login() {
             const validUsername = "admin";
-            const validPassword = "password123";
+            const validPassword = "admin";
 
             let username = document.getElementById("username").value;
             let password = document.getElementById("password").value;
