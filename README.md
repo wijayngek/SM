@@ -11,7 +11,6 @@
         <h2>Login</h2>
         <input type="text" id="username" placeholder="Username" required>
         <input type="password" id="password" placeholder="Password" required>
-        <p class="error" id="error-message">Invalid login credentials!</p>
         <button onclick="login()">Login</button>
     </div>
 
